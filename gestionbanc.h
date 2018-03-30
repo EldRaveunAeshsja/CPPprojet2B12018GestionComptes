@@ -5,10 +5,23 @@
 #ifndef PROJET2_GESTIONBANC_H
 #define PROJET2_GESTIONBANC_H
 
-
-class gestionbanc {
-
+enum TypeMouvement
+{
+    DEBIT,
+    CREDIT
 };
+
+    class gestionbanc
+    {
+    private:
+        double montant;
+        TypeMouvement mTypeMouvement;
+
+    public:
+
+        gestionbanc(TypeMouvement m):mTypeMouvement{m} {};
+
+    };
 
 
 #endif //PROJET2_GESTIONBANC_H
