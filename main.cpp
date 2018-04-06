@@ -1,5 +1,5 @@
 #include <iostream>
-#include "gestionbanc.h"
+#include "operationBancaire.h"
 
 using namespace std;
 

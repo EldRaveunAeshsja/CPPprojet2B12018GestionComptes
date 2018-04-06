@@ -91,6 +91,12 @@
 		<Unit filename="C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/main.cpp">
 			<Option target="Projet2"/>
 		</Unit>
+		<Unit filename="C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/operationBancaire.cpp">
+			<Option target="Projet2"/>
+		</Unit>
+		<Unit filename="C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/operationBancaire.h">
+			<Option target="Projet2"/>
+		</Unit>
 		<Unit filename="C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

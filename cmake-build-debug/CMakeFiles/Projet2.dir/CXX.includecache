@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/gestionbanc.cpp
+gestionbanc.h
+C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/gestionbanc.h
+iostream
+-
+
+C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/gestionbanc.h
+
+C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/main.cpp
+iostream
+-
+gestionbanc.h
+C:/Users/arnau/Desktop/Cours/M.Chevallier/POO_ProgramationOrienteObjet/Projet2/gestionbanc.h
+
