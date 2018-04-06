@@ -5,6 +5,8 @@
 #ifndef PROJET2_OPERATIONBANCAIRE_H
 #define PROJET2_OPERATIONBANCAIRE_H
 
+#include <iostream>
+
 
 enum TypeMouvement
 {
@@ -18,8 +20,11 @@ private:
     double montant;
     TypeMouvement mTypeMouvement;
 
+
 public:
 
+    operationBancaire ();
+    TypeMouvement (TypeMouvement mTypeMouvement, double montant);
     operationBancaire(TypeMouvement m):mTypeMouvement{m} {};
 
 };

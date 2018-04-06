@@ -122,32 +122,32 @@ Projet2/fast:
 	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/build
 .PHONY : Projet2/fast
 
-gestionbanc.obj: gestionbanc.cpp.obj
+compte.obj: compte.cpp.obj
 
-.PHONY : gestionbanc.obj
+.PHONY : compte.obj
 
 # target to build an object file
-gestionbanc.cpp.obj:
-	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/gestionbanc.cpp.obj
-.PHONY : gestionbanc.cpp.obj
+compte.cpp.obj:
+	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/compte.cpp.obj
+.PHONY : compte.cpp.obj
 
-gestionbanc.i: gestionbanc.cpp.i
+compte.i: compte.cpp.i
 
-.PHONY : gestionbanc.i
+.PHONY : compte.i
 
 # target to preprocess a source file
-gestionbanc.cpp.i:
-	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/gestionbanc.cpp.i
-.PHONY : gestionbanc.cpp.i
+compte.cpp.i:
+	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/compte.cpp.i
+.PHONY : compte.cpp.i
 
-gestionbanc.s: gestionbanc.cpp.s
+compte.s: compte.cpp.s
 
-.PHONY : gestionbanc.s
+.PHONY : compte.s
 
 # target to generate assembly for a file
-gestionbanc.cpp.s:
-	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/gestionbanc.cpp.s
-.PHONY : gestionbanc.cpp.s
+compte.cpp.s:
+	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/compte.cpp.s
+.PHONY : compte.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -212,9 +212,9 @@ help:
 	@echo ... Projet2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... gestionbanc.obj
-	@echo ... gestionbanc.i
-	@echo ... gestionbanc.s
+	@echo ... compte.obj
+	@echo ... compte.i
+	@echo ... compte.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

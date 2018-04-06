@@ -3,4 +3,4 @@ project(Projet2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Projet2 main.cpp operationBancaire.cpp operationBancaire.h)
+add_executable(Projet2 main.cpp operationBancaire.cpp operationBancaire.h compte.cpp compte.h)

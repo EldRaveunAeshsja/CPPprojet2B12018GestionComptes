@@ -1,5 +1,6 @@
 #include <iostream>
 #include "operationBancaire.h"
+#include "compte.h"
 
 using namespace std;
 

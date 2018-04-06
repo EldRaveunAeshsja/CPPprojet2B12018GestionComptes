@@ -80,33 +80,9 @@ CMakeFiles/Projet2.dir/main.cpp.obj.provides: CMakeFiles/Projet2.dir/main.cpp.ob
 CMakeFiles/Projet2.dir/main.cpp.obj.provides.build: CMakeFiles/Projet2.dir/main.cpp.obj
 
 
-CMakeFiles/Projet2.dir/gestionbanc.cpp.obj: CMakeFiles/Projet2.dir/flags.make
-CMakeFiles/Projet2.dir/gestionbanc.cpp.obj: ../gestionbanc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projet2.dir/gestionbanc.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projet2.dir\gestionbanc.cpp.obj -c C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\gestionbanc.cpp
-
-CMakeFiles/Projet2.dir/gestionbanc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projet2.dir/gestionbanc.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\gestionbanc.cpp > CMakeFiles\Projet2.dir\gestionbanc.cpp.i
-
-CMakeFiles/Projet2.dir/gestionbanc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projet2.dir/gestionbanc.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\gestionbanc.cpp -o CMakeFiles\Projet2.dir\gestionbanc.cpp.s
-
-CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.requires
-
-CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.provides: CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.provides.build
-.PHONY : CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.provides
-
-CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.provides.build: CMakeFiles/Projet2.dir/gestionbanc.cpp.obj
-
-
 CMakeFiles/Projet2.dir/operationBancaire.cpp.obj: CMakeFiles/Projet2.dir/flags.make
 CMakeFiles/Projet2.dir/operationBancaire.cpp.obj: ../operationBancaire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projet2.dir/operationBancaire.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projet2.dir/operationBancaire.cpp.obj"
 	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projet2.dir\operationBancaire.cpp.obj -c C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\operationBancaire.cpp
 
 CMakeFiles/Projet2.dir/operationBancaire.cpp.i: cmake_force
@@ -128,18 +104,42 @@ CMakeFiles/Projet2.dir/operationBancaire.cpp.obj.provides: CMakeFiles/Projet2.di
 CMakeFiles/Projet2.dir/operationBancaire.cpp.obj.provides.build: CMakeFiles/Projet2.dir/operationBancaire.cpp.obj
 
 
+CMakeFiles/Projet2.dir/compte.cpp.obj: CMakeFiles/Projet2.dir/flags.make
+CMakeFiles/Projet2.dir/compte.cpp.obj: ../compte.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projet2.dir/compte.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Projet2.dir\compte.cpp.obj -c C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\compte.cpp
+
+CMakeFiles/Projet2.dir/compte.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projet2.dir/compte.cpp.i"
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\compte.cpp > CMakeFiles\Projet2.dir\compte.cpp.i
+
+CMakeFiles/Projet2.dir/compte.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projet2.dir/compte.cpp.s"
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arnau\Desktop\Cours\M.Chevallier\POO_ProgramationOrienteObjet\Projet2\compte.cpp -o CMakeFiles\Projet2.dir\compte.cpp.s
+
+CMakeFiles/Projet2.dir/compte.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Projet2.dir/compte.cpp.obj.requires
+
+CMakeFiles/Projet2.dir/compte.cpp.obj.provides: CMakeFiles/Projet2.dir/compte.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Projet2.dir\build.make CMakeFiles/Projet2.dir/compte.cpp.obj.provides.build
+.PHONY : CMakeFiles/Projet2.dir/compte.cpp.obj.provides
+
+CMakeFiles/Projet2.dir/compte.cpp.obj.provides.build: CMakeFiles/Projet2.dir/compte.cpp.obj
+
+
 # Object files for target Projet2
 Projet2_OBJECTS = \
 "CMakeFiles/Projet2.dir/main.cpp.obj" \
-"CMakeFiles/Projet2.dir/gestionbanc.cpp.obj" \
-"CMakeFiles/Projet2.dir/operationBancaire.cpp.obj"
+"CMakeFiles/Projet2.dir/operationBancaire.cpp.obj" \
+"CMakeFiles/Projet2.dir/compte.cpp.obj"
 
 # External object files for target Projet2
 Projet2_EXTERNAL_OBJECTS =
 
 Projet2.exe: CMakeFiles/Projet2.dir/main.cpp.obj
-Projet2.exe: CMakeFiles/Projet2.dir/gestionbanc.cpp.obj
 Projet2.exe: CMakeFiles/Projet2.dir/operationBancaire.cpp.obj
+Projet2.exe: CMakeFiles/Projet2.dir/compte.cpp.obj
 Projet2.exe: CMakeFiles/Projet2.dir/build.make
 Projet2.exe: CMakeFiles/Projet2.dir/linklibs.rsp
 Projet2.exe: CMakeFiles/Projet2.dir/objects1.rsp
@@ -153,8 +153,8 @@ CMakeFiles/Projet2.dir/build: Projet2.exe
 .PHONY : CMakeFiles/Projet2.dir/build
 
 CMakeFiles/Projet2.dir/requires: CMakeFiles/Projet2.dir/main.cpp.obj.requires
-CMakeFiles/Projet2.dir/requires: CMakeFiles/Projet2.dir/gestionbanc.cpp.obj.requires
 CMakeFiles/Projet2.dir/requires: CMakeFiles/Projet2.dir/operationBancaire.cpp.obj.requires
+CMakeFiles/Projet2.dir/requires: CMakeFiles/Projet2.dir/compte.cpp.obj.requires
 
 .PHONY : CMakeFiles/Projet2.dir/requires
 
