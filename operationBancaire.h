@@ -18,14 +18,13 @@ class operationBancaire
 {
 private:
     double montant;
-    TypeMouvement mTypeMouvement;
+    enum TypeMouvement;
 
 
 public:
 
     operationBancaire ();
-    TypeMouvement (TypeMouvement mTypeMouvement, double montant);
-    operationBancaire(TypeMouvement m):mTypeMouvement{m} {};
+    operationBancaire (double montant, TypeMouvement);
 
 };
 
