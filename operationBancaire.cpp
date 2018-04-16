@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-
+/*
 
 int main(){
 
@@ -15,17 +15,18 @@ int main(){
 
         // En gros ici on debite la solde de la classe compte par le montant;
 
-
+        solde += montant;
 
     }else if(TypeMouvement::CREDIT){
 
 
         // En gros ici on credite la solde de la classe compte par le montant;
 
-
+        solde -= montant;
     };
 
 
 
 
 }
+*/
