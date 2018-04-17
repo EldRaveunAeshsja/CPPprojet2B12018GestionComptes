@@ -7,6 +7,28 @@
 #include <iostream>
 using namespace std;
 
+
+operationBancaire::operationBancaire(){
+    _montant = 0;
+    _Type = Mouvement::CREDIT;
+};
+
+operationBancaire::operationBancaire(double montant, Mouvement Type) {
+    _montant = montant;
+    _Type = Type;
+}
+
+double operationBancaire::getMontant() {
+
+    double a=_montant;
+    if (_Type == Mouvement::DEBIT){
+        a *= -1;
+    }
+    return a;
+}
+
+
+
 /*
 
 int main(){

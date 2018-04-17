@@ -8,7 +8,7 @@
 #include <iostream>
 
 
-enum TypeMouvement
+enum class Mouvement
 {
     DEBIT,
     CREDIT
@@ -17,14 +17,15 @@ enum TypeMouvement
 class operationBancaire
 {
 private:
-    double montant;
-    int TypeMouvement(TypeMouvement);
+    double _montant;
+    Mouvement _Type;
 
 
 public:
 
     operationBancaire ();
-    operationBancaire (double montant, int TypeMouvement);
+    operationBancaire (double montant, Mouvement Type);
+    double getMontant();
 };
 
 
